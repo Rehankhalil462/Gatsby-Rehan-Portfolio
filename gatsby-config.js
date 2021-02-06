@@ -1,15 +1,15 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Rehan's Portfolio`,
   },
   plugins: [
     {
@@ -26,21 +26,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Rehan's Portfolio`,
+        short_name: `Rehan's Portfolio`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/android-icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-icon-48x48.png`,
+            sizes: `64x64 16x16 32x32 24x24`,
+            type: `image/png`,
+          },
+          {
+            src: `/appl;e-icon-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
@@ -58,4 +62,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
