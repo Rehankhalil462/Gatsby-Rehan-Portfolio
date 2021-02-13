@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "description": "Rehan's Portfolio",
   "version": "0.2.8",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Rehan Khalil",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "starter-name": "gatsby-starter-portfolio",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
