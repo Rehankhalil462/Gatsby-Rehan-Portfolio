@@ -8,11 +8,11 @@ import Contact from "../components/contact"
 
 const Cara = () => (
   <Layout>
-    <Parallax pages={8}>
+    <Parallax pages={10}>
       <Hero offset={0} factor={1} />
-      <Projects offset={2} factor={2} />
-      <About offset={6} factor={1} />
-      <Contact offset={7} factor={1} />
+      <Projects offset={2.5} factor={4} />
+      <About offset={7} factor={1} />
+      <Contact offset={8} factor={1} />
     </Parallax>
   </Layout>
 )
