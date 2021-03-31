@@ -8,7 +8,7 @@ import Contact from "@lekoarts/gatsby-theme-cara/src/components/contact"
 
 const Cara = () => (
   <Layout>
-    <Parallax pages={10}>
+    <Parallax pages={9}>
       <Hero offset={0} factor={1} />
       <Projects offset={2.5} factor={4} />
       <About offset={7} factor={1} />
